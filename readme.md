@@ -1,6 +1,8 @@
-# Live Object Detection on Live Streams or Videos Flask Web Application using YOLOv8
+# Live Pen Analysis on Live Streams Web Application
 
-The Object Detection Live Stream Application is a Flask-based web application that allows users to process live video streams or videos from URLs and perform real-time object detection using YOLO (You Only Look Once) model. The application uses Streamlink to fetch video streams from URLs and Ultralytics YOLO for object detection. It provides a user-friendly interface to control various settings, such as flipping the video horizontally, showing the live stream, and running object detection on the video.
+The Pen Analysis Live Stream Application is a web application that allows farmers to monitor their pens in real time. Users (farmers) can process live video streams and perform real-time pen analysis using the YOLO (You Only Look Once) model. The application utilizes Ultralytics YOLO for object tracking and Pytorch for analysis. It provides a user-friendly interface for control, including flipping the video horizontally, viewing the live stream, and running object detection on the video.
+
+Additionally, the application connects to a secure farmer's wallet system. Upon registration, farmers can connect their wallets to the application to monitor their pens. A small fee will be deducted from the wallet for processing the live video stream and real-time pen analysis. This fee facilitates the connection of farmers with potential buyers through the platform.
 
 ## Features
 
@@ -12,9 +14,9 @@ The Object Detection Live Stream Application is a Flask-based web application th
 
 ## Screenshots
 
-![Screenshot 1](detections.jpg) | ![Screenshot 2](detections.jpg)
-:-----------------------------------------------:|:-----------------------------------------------:
-Homepage                                         | Dashboard
+![Screenshot 1](detections.jpg) |
+:-----------------------------------------------:|
+Dashboard                                         | 
 
 ## Prerequisites
 
@@ -28,7 +30,7 @@ Before running the Live Object Detection web application, ensure you have the fo
 1. Clone the repository to your local machine:
 
    ```
-   git clone https://github.com/raoumairwaheed/yolov8-Object-detection-web-application-flask.git
+   git clone https://github.com/Clinton-Nyaore/Web3Clubs-Goats-CV.git
    ```
 
 2. Navigate to the project directory:
@@ -55,7 +57,7 @@ Before running the Live Object Detection web application, ensure you have the fo
 
 5. The video stream with real-time object detection will be displayed on the index page.
 
-6. Use the control features (checkboxes and slider) to modify the behavior of the video stream and object detection.
+6. Use the control features (checkboxes and slider) to modify the behaviour of the video stream and object detection.
 
 7. To stop the video stream processing, click the "Back to Homepage" button.
 
@@ -94,6 +96,7 @@ The application provides the following control features:
 - Socket.IO (For Real-Time Updates)
 - Bootstrap (Frontend Styling)
 - HTML/CSS/JavaScript
+- PyTorch
 
 ## Supported Video Platforms
 
@@ -111,6 +114,30 @@ This application supports video streams from a variety of platforms, including b
 10. and more...
 
 Please refer to the official Streamlink documentation for an up-to-date list of supported platforms: [Streamlink Documentation](https://streamlink.github.io/streamlink/)
+
+## Future work
+
+* **Advanced Analytics:**
+    * Implement additional functionalities for pen analysis, such as:
+        * Animal health detection (e.g., lameness, disease)
+        * Behavior analysis (e.g., stress levels, feeding patterns)
+        * Breed recognition and count
+* **AI Model Improvement:**
+    * Train the YOLO model with a larger dataset for improved accuracy in animal detection and tracking.
+    * Explore other deep learning models potentially suited for specific pen analysis tasks.
+* **Integration with Smart Farming Systems:**
+    * Allow data export to integrate with existing farm management software.
+    * Enable control of smart farm devices (e.g., automated feeders) based on pen analysis results.
+* **Enhanced Security:**
+    * Implement multi-factor authentication for secure access to farmer wallets.
+    * Explore blockchain technology for secure data storage and transaction verification.
+* **Mobile App Development:**
+    * Develop a mobile application for farmers to access pen monitoring functionalities on the go.
+* **Buyer Matching:**
+    * Integrate an algorithm to match farmers with potential buyers based on pen analysis data and buyer preferences.
+* **Subscription Model:**
+    * Explore a tiered subscription model offering different levels of service (e.g., basic monitoring vs. advanced analytics) at varying price points.
+
 
 ## Acknowledgments
 
