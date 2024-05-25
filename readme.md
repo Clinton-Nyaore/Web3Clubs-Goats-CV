@@ -14,8 +14,8 @@ Additionally, the application connects to a secure farmer's wallet system. Upon 
 
 ## Screenshots
 
-![Screenshot 1](detections.jpg) |
-:-----------------------------------------------:|
+![Screenshot 1](detections.jpg) | ![Screenshot 1](dashboard.png)
+:-----------------------------------------------:| :--------------------------
 Dashboard                                         | 
 
 ## Prerequisites
