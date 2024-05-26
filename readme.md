@@ -1,16 +1,35 @@
-# Live Pen Analysis on Live Streams Web Application
+## pen.live: Blockchain-Powered Livestock Marketplace with Real-Time Pen Analysis
 
-The Pen Analysis Live Stream Application is a web application that allows farmers to monitor their pens in real time. Users (farmers) can process live video streams and perform real-time pen analysis using the YOLO (You Only Look Once) model. The application utilizes Ultralytics YOLO for object tracking and Pytorch for analysis. It provides a user-friendly interface for control, including flipping the video horizontally, viewing the live stream, and running object detection on the video.
+pen.live is a revolutionary platform that merges livestock ownership with the power of blockchain technology. It creates a secure and transparent tokenized marketplace for animals, where a unique NFT represents each animal. This NFT grants ownership and provides detailed tracking and knowledge of the individual animal through Precision Livestock Farming (PLF) technology.
 
-Additionally, the application connects to a secure farmer's wallet system. Upon registration, farmers can connect their wallets to the application to monitor their pens. A small fee will be deducted from the wallet for processing the live video stream and real-time pen analysis. This fee facilitates the connection of farmers with potential buyers through the platform.
+### Guardian Network and Revenue Sharing
+Guardians, local to the farms, play a crucial role. They onboard farmers and stake an amount equal to the initial cost of the animal's token. Should an animal die or be lost, a moderator/inspector team determines the cause and liability. Based on their vote, the NFT holder may be compensated by slashing the guardian's stake. NFT holders pay for animal management, with revenue split transparently between the farmer, guardian, and pen.live.
+
+### Comprehensive Platform with Live Pen Analysis
+The pen.live platform offers a wealth of information on its user-friendly homepage. You can track listed pens, total pens, platform value locked (TVL), total listed animals, trending animal TVL per pen, and top holders with their total realized and unrealized profit or loss (PnL). Additionally, you can see dedicated sections for farmer and guardian revenue, platform revenue, and a live stream with advanced features.
+
+### Live Pen Analysis for Real-Time Insights
+The Live Pen Analysis Live Stream Web Application empowers farmers to gain real-time insights into their pens. Users can process live video streams and perform real-time pen analysis using the YOLO (You Only Look Once) model. This application utilizes cutting-edge technologies like Ultralytics YOLO for object tracking and Pytorch for analysis. A user-friendly interface allows for control over the video stream, including flipping the video horizontally and running object detection.
+
+### Secure Wallet Integration and Streamlined Fee System
+The application seamlessly integrates with a secure farmer's wallet system. Upon registration, farmers can connect their wallets to the application for pen monitoring. A small fee deducted from the wallet facilitates real-time pen analysis and connects farmers with potential buyers through the pen.live platform.
+
+This unique combination of secure blockchain ownership, real-time animal tracking, and advanced pen analysis empowers farmers with unprecedented control and transparency while offering investors a new and exciting way to participate in the livestock market.
+
 
 ## Features
 
-- Fetch live video streams or videos from URLs using Streamlink
-- Perform real-time object detection using Ultralytics YOLO model
-- Allow users to toggle preview, flip the video horizontally, and run object detection
-- Adjust object detection confidence threshold using a slider
-- Display real-time object detection results on the live stream
+- Fetch live video streams or videos from URLs using Streamlink.
+- Perform real-time object detection using the Ultralytics YOLO model.
+- Allow users to toggle preview, flip the video horizontally, and run object detection.
+- Adjust object detection confidence threshold using a slider.
+- Display real-time object detection results on the live stream.
+- Track listed pens, total pens, platform value locked (TVL), total listed animals, and trending animal TVL per pen.
+- View top holders with their total realized and unrealized profit or loss (PnL).
+- Access dedicated sections for farmer and guardian revenue, platform revenue, and a live stream with advanced features.
+- Integrate seamlessly with a secure farmer's wallet system for pen monitoring and potential buyer connections.
+- Facilitate a streamlined fee system deducted from the farmer's wallet for real-time pen analysis.
+
 
 ## Screenshots
 
@@ -20,7 +39,7 @@ Dashboard                                         |  Analysis
 
 ## Prerequisites
 
-Before running the Live Object Detection web application, ensure you have the following prerequisites installed on your system:
+Before running the web application, ensure you have the following prerequisites installed on your system:
 
 - Python 3.10
 - pip (Python package manager)
@@ -115,7 +134,7 @@ This application supports video streams from a variety of platforms, including b
 
 Please refer to the official Streamlink documentation for an up-to-date list of supported platforms: [Streamlink Documentation](https://streamlink.github.io/streamlink/)
 
-## Future work
+## Next Steps
 
 * **Advanced Analytics:**
     * Implement additional functionalities for pen analysis, such as:
